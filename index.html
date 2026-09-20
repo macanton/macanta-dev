@@ -5,73 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta
       name="description"
-      content="Macanta applications, platform availability, product information, privacy details, and support."
+      content="Apps by Macanta dev, an independent app publisher by Anton."
     >
-    <meta name="theme-color" content="#f7f9fc">
-    <title>Macanta — Applications</title>
+    <meta name="theme-color" content="#fbfcff">
+    <title>Apps — Macanta dev</title>
+    <link rel="canonical" href="https://macanton.github.io/macanta-dev/">
     <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <a class="skip-link" href="#main-content">Skip to content</a>
 
     <header class="site-header">
-      <div class="page-shell">
-        <div class="brand" aria-label="Macanta">
+      <div class="site-shell header-content">
+        <a class="brand" href="./" aria-label="Macanta dev home">
           <span class="brand-mark" aria-hidden="true">M</span>
-          <span class="brand-name">Macanta</span>
-        </div>
+          <span>Macanta dev</span>
+        </a>
+
+        <nav class="primary-nav" aria-label="Primary navigation">
+          <ul>
+            <li><a href="./" aria-current="page">Apps</a></li>
+            <li><a href="about/">About</a></li>
+            <li><a href="blog/">Blog</a></li>
+          </ul>
+        </nav>
       </div>
     </header>
 
-    <main id="main-content">
-      <section class="intro page-shell" aria-labelledby="page-title">
-        <div class="intro-copy">
-          <p class="eyebrow">Application publisher</p>
-          <h1 id="page-title">Applications by Macanta.</h1>
-          <p class="intro-text">
-            This will be the home of Macanta apps, with product details, platform
-            availability, privacy information, and support as each app is released.
-          </p>
-        </div>
-        <div class="intro-accent" aria-hidden="true">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+    <main id="main-content" tabindex="-1">
+      <section class="apps-hero site-shell" aria-labelledby="page-title">
+        <p class="eyebrow">Apps by Anton</p>
+        <h1 id="page-title">
+          Small, focused apps from <span class="gradient-text">Macanta dev.</span>
+        </h1>
+        <p class="hero-copy">
+          Two new apps are taking shape. Product details will be shared here when
+          they are ready.
+        </p>
       </section>
 
-      <section class="applications page-shell" aria-labelledby="applications-title">
+      <section class="app-showcase site-shell" aria-labelledby="app-list-title">
         <div class="section-heading">
           <div>
-            <p class="section-label">Catalog</p>
-            <h2 id="applications-title">Applications</h2>
+            <p class="eyebrow">In the works</p>
+            <h2 id="app-list-title">Apps</h2>
           </div>
-          <span class="catalog-status">Coming soon</span>
+          <p class="section-count">2 projects</p>
         </div>
 
         <div class="app-grid">
-          <article class="empty-state">
-            <div class="empty-state-mark" aria-hidden="true">
-              <span>M</span>
-            </div>
-            <div class="empty-state-copy">
-              <h3>The first applications are being prepared.</h3>
-              <p>
-                Published apps will appear here when their product and store
-                information is ready.
-              </p>
+          <article class="app-card" id="dzenphone" aria-labelledby="dzenphone-title">
+            <div class="app-monogram app-monogram-dzen" aria-hidden="true">D</div>
+            <div class="app-card-copy">
+              <h3 id="dzenphone-title">DzenPhone</h3>
+              <p>Details coming soon.</p>
+              <span class="status-label">Coming soon</span>
             </div>
           </article>
 
-          <!-- Future application cards belong in this grid once their pages exist. -->
+          <article class="app-card" id="learnmywords" aria-labelledby="learnmywords-title">
+            <div class="app-monogram app-monogram-words" aria-hidden="true">L</div>
+            <div class="app-card-copy">
+              <h3 id="learnmywords-title">LearnMyWords</h3>
+              <p>Details coming soon.</p>
+              <span class="status-label">Coming soon</span>
+            </div>
+          </article>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <div class="page-shell">
-        <p>&copy; <time datetime="2026">2026</time> Macanta</p>
+      <div class="site-shell footer-content">
+        <p>&copy; <time datetime="2026">2026</time> Macanta dev</p>
+        <p>Built by Anton.</p>
       </div>
     </footer>
   </body>
