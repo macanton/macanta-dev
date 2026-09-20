@@ -216,15 +216,6 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 
-.hero-copy {
-  max-width: 38rem;
-  margin: 0 auto;
-  color: var(--color-text-muted);
-  font-size: clamp(1.0625rem, 2vw, 1.25rem);
-  line-height: 1.65;
-  text-wrap: pretty;
-}
-
 .app-showcase {
   padding-block-end: clamp(5rem, 9vw, 8rem);
 }
@@ -334,6 +325,11 @@ h2 {
   padding-block: clamp(4rem, 9vw, 7.5rem) clamp(5rem, 9vw, 8rem);
 }
 
+.content-page-single {
+  grid-template-columns: minmax(0, 43rem);
+  justify-content: center;
+}
+
 .page-kicker {
   margin: 0;
   color: var(--color-accent-strong);
@@ -354,6 +350,11 @@ h2 {
   margin: 0 0 1.75rem;
   font-size: clamp(3rem, 6vw, 5rem);
   text-align: start;
+}
+
+.article-content .blog-title {
+  font-size: clamp(1.45rem, 5.2vw, 3.65rem);
+  white-space: nowrap;
 }
 
 .article-content > p {
